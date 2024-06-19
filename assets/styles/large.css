@@ -1,6 +1,6 @@
 @media screen and (min-width: 1206px)  {
     .navbar {
-        font-size: 1.5rem;
+        font-size: larger;
     }
 
     .menu-list .menu-list-items { 
@@ -13,5 +13,9 @@
 
     .sub-heading {
         font-size: 25px;
+    }
+
+    .skills-list {
+        font-size: larger;
     }
 }

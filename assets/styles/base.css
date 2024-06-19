@@ -1,3 +1,5 @@
+/* I still need to fix the nav items so they don't quish */
+
 /* Import Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
@@ -127,39 +129,8 @@ body {
     font-size: 1.2rem;
 }
 
-/* Contact Section Styles */
-.contact { 
-    padding: 0 5rem; 
-} 
 
-.contact-content { 
-    display: flex; 
-    margin: 3rem 0; 
-    justify-content: space-between; 
-} 
 
-.contact-form-container { 
-    width: 50%; 
-} 
-
-.contact-form { 
-    display: flex; 
-    flex-direction: column; 
-} 
-
-.contact-form .form-controls { 
-    width: 80%; 
-    padding: 10px 0; 
-    margin: 1.67rem 0; 
-} 
-
-.contact-form .form-btn { 
-    width: 83%; 
-} 
-
-.contact-details { 
-    width: 50%; 
-} 
 
 /* Footer Styles */
 .footer { 
@@ -259,6 +230,8 @@ body {
     color: #35A99C; 
     border: 2px solid #35A99C; 
     outline: none; 
+    text-decoration: none;
+    
 } 
 
 .ghost-btn:hover { 

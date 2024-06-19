@@ -12,3 +12,4 @@ hamButton.addEventListener('click', () => {
     hamButton.classList.toggle('open');
 
 });
+
