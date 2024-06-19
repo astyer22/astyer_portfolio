@@ -1,0 +1,40 @@
+/*index.css*/
+/* Responsive CSS file styles defined for smaller width devices */
+/* CSS for tablet devices */
+
+@media screen and (min-width: 576px) and (max-width: 899px){ 
+    .logo { 
+        padding: 0 3rem; 
+    } 
+
+    .hamburger { 
+        display: block; 
+        padding: 0 3rem; 
+    } 
+
+    #hero-img {
+        
+        margin-top: 5px; 
+    }
+    .menu { 
+        position: absolute; 
+        right: 0; 
+        padding: 0 3rem; 
+        top: 75px; 
+        background-image: linear-gradient(180deg, #74D7BB, #53C8B6, #35A99C); 
+        display: none; 
+        transition: all 0.25s; 
+    } 
+
+    .menu .menu-list { 
+        flex-direction: column; 
+    }
+    
+    .sub-heading {
+        font-size: 20px;
+    }
+
+    .links {
+        font-size: 20px;
+    }
+} 

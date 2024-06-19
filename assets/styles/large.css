@@ -1,0 +1,17 @@
+@media screen and (min-width: 1206px)  {
+    .navbar {
+        font-size: 1.5rem;
+    }
+
+    .menu-list .menu-list-items { 
+        padding: 8px 4.8px;
+    } 
+
+    .greet-heading {
+        font-size: 35px;
+    }
+
+    .sub-heading {
+        font-size: 25px;
+    }
+}
