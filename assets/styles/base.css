@@ -205,7 +205,12 @@ body {
     border: black 2px solid;
 }
 
-
+main h1 {
+    font-size: 2.5rem;
+    margin-top: 200px;
+    text-align: center;
+    color:#000
+}
 
 /* Footer Styles */
 .footer { 
