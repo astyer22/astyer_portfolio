@@ -1,8 +1,8 @@
-/*index.css*/
+/* index.css */
 /* Responsive CSS file styles defined for smaller width devices */
 /* CSS for tablet devices */
 
-@media screen and (min-width: 576px) and (max-width: 900px){ 
+@media screen and (min-width: 576px) and (max-width: 1300px){ 
     .logo { 
         padding: 0 3rem; 
     } 
@@ -43,7 +43,7 @@
     }
 
     #webdev-heading {
-        margin-top: 60px;
+        /* margin-top: 60px; */
         height: 70%;
         grid-column: 1/4;
         grid-row: 1/2;
