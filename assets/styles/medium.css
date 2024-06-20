@@ -2,7 +2,7 @@
 /* Responsive CSS file styles defined for smaller width devices */
 /* CSS for tablet devices */
 
-@media screen and (min-width: 576px) and (max-width: 1300px){ 
+@media screen and (min-width: 576px) and (max-width: 900px){ 
     .logo { 
         padding: 0 3rem; 
     } 
