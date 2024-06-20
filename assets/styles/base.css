@@ -140,52 +140,71 @@ body {
 #webdev-heading {
     font-size: 30px;
     letter-spacing: 1px; 
-    border-bottom: #000 1px solid;
+    /* border-bottom: #000 1px solid; */
     background-image: radial-gradient(circle, rgb(15 14 14 / 30%), rgb(102 96 96 / 40%), rgb(163 160 160 / 16%)), url('./Images/heroImg3.avif');
     color: #000;
-    grid-row: 2/3;
+    grid-row: 1/2;
     grid-column: 1/4;
     margin-top: 80px;
     text-align: center;
+    height: 90%;
+}
+
+#webdev-heading h1 {
+    border-bottom: #000;
 }
 
 #webdev-heading h2 {
-    color: #696969;
+    color: #494949;
+    
 }
 
 #webdev-heading p {
-    color: #747272;
+    color: #272727;
 }
 
 .webdev_project{
-    
     text-align: center;
+    
+}
+
+.webdev_project h3 {
+    font-size: 1.5rem;
 }
 
 .webdev_project p {
     font-size: 1.2rem;
+
 }
 
 #sasquatchmayhem {
-    grid-row: 3/4;
+    grid-row: 2/3;
     padding: 10px;
-    margin: 10px;
+    margin: 50px;
     justify-self: center;
 }
 
 #scoots {
-    grid-row: 3/4;
+    grid-row: 2/3;
     padding: 10px;
-    margin: 10px;
+    margin: 50px;
     justify-self: center;
 }
 
 #pokemon {
-    grid-row: 3/4;
+    grid-row: 2/3;
     padding: 10px;
-    margin: 10px;
+    margin: 50px;
     justify-self: center;
 }
+
+/* Web card imgs */
+#ssm_logo {
+    height: 200px;
+    width: 200px;
+    border: black 2px solid;
+}
+
 
 
 /* Footer Styles */
@@ -290,7 +309,7 @@ body {
     border: 2px solid #35A99C; 
     transition: all 0.25s; 
     text-decoration: none;
-    margin-top: 40px;
+    margin-top: 60px;
     align-items: center; 
     justify-content: space-evenly;
 }

@@ -13,3 +13,17 @@ hamButton.addEventListener('click', () => {
 
 });
 
+// web dev page
+// Button for web pages
+
+function handleButtonClick(event) {
+    const url = event.currentTarget.getAttribute('data-href');
+    if (url) {
+        window.location.href = url;
+    }
+}
+
+// Add event listeners to all buttons with the class 'web-common-btn'
+document.querySelectorAll('.web-common-btn').forEach(button => {
+    button.addEventListener('click', handleButtonClick);
+});

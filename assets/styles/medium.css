@@ -2,7 +2,7 @@
 /* Responsive CSS file styles defined for smaller width devices */
 /* CSS for tablet devices */
 
-@media screen and (min-width: 576px) and (max-width: 899px){ 
+@media screen and (min-width: 576px) and (max-width: 1300px){ 
     .logo { 
         padding: 0 3rem; 
     } 
@@ -34,7 +34,56 @@
         font-size: 20px;
     }
 
+    /* WebDev Page */
+
+    #webcards {
+        display: grid;
+       grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #webdev-heading {
+        margin-top: 60px;
+        height: 70%;
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+
+    #webdev-heading h1 {
+        font-size: 2.1rem;
+    }
+
+    #webdev-heading p {
+        font-size: 1.8rem;
+    }
+
+    .webdev_project {
+        justify-self: center;
+        font-size: large;
+    }
+
+    /* .webdev_project p {
+        display: none
+    } */
+
+    #pokemon {
+        grid-row: 3/4;
+        grid-column: 1/4;
+    }
+
+    #sasquatchmayhem {
+        grid-row: 2/3;
+        grid-column: 1/4;
+    }
+
+    #scoots {
+        grid-row: 4/5;
+        grid-column: 1/4;
+    }
+
     .links {
         font-size: 20px;
     }
+
+    
 } 

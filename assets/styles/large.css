@@ -1,6 +1,6 @@
-@media screen and (min-width: 1206px)  {
+@media screen and (min-width: 1301px)  {
     .navbar {
-        font-size: larger;
+        /* font-size: larger; */
     }
 
     .menu-list .menu-list-items { 
@@ -21,5 +21,22 @@
 
     .footer{
         font-size: larger;
+    }
+
+    /* WebDev Page */
+    #webdev-heading {
+        margin-top: 60px;
+    }
+
+    #webdev-heading h1 {
+        font-size: 2.5rem;
+    }
+
+    #webdev-heading h2 {
+        font-size: 1.5rem;
+    }
+
+    #webdev-heading p {
+        font-size: 1.2rem;
     }
 }

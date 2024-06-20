@@ -58,6 +58,46 @@
         padding: 0 2rem; 
     } 
 
+    /* Webdev page */
+
+    #webdev-heading {
+        margin-top: 60px;
+        height: 80%;
+        grid-column: 1/4;
+    }
+
+    #webdev-heading h1 {
+        font-size: 2.1rem;
+    }
+
+    #webdev-heading h2 {
+        font-size: 1.5rem;
+    }
+
+    #webdev-heading p {
+        font-size: 1.2rem;
+    }
+
+    .webdev_project {
+        justify-self: center;
+        height: 25%;
+    }
+    .webdev_project p {
+        display: none
+    }
+
+    #scoots {
+        grid-row: 2/3;
+    }
+
+    #pokemon {
+        grid-row: 3/4;
+    }
+
+    #sasquatchmayhem {
+        grid-row: 4/5;
+    }
+    
     .contact-content { 
         flex-direction: column; 
         align-items: center; 
@@ -80,6 +120,8 @@
         width: 80%; 
     } 
 
+
+    
     .footer-menu { 
         padding: 0 2rem; 
     } 
